@@ -1,4 +1,3 @@
-
 from machine import Pin
 import time
 
@@ -10,19 +9,19 @@ in4 = Pin(21, Pin.OUT)
 t = 2
 
 while True:
-    for a in range(0,501,1):
-        for a in lists:
-            in1.value(a[3])
-            in2.value(a[2])
-            in3.value(a[1])
-            in4.value(a[0])
+    for x in range(0,501,1):
+        for x in lists:
+            in1.value(x[3])
+            in2.value(x[2])
+            in3.value(x[1])
+            in4.value(x[0])
             time.sleep_ms(t)
     time.sleep(1)
-    for b in range(0,501,1):
-        for b in lists:
-            in1.value(b[0])
-            in2.value(b[1])
-            in3.value(b[2])
-            in4.value(b[3])
+    for y in range(0,501,1):
+        for y in lists:
+            in1.value(y[0])
+            in2.value(y[1])
+            in3.value(y[2])
+            in4.value(y[3])
             time.sleep_ms(t)
     time.sleep(1)
